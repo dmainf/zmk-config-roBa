@@ -108,10 +108,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &kp UP    &trans     &trans
-&trans  &trans  &trans  &trans  &trans          &trans              &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE
-&trans  &trans  &trans  &trans  &trans          &trans              &trans  &trans  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &kp LANGUAGE_2  &kp LANGUAGE_1      &trans  &trans                                 &trans
+&trans  &trans  &trans  &trans  &trans                                          &trans  &trans    &kp UP    &trans     &trans
+&trans  &trans  &trans  &trans  &trans          &trans              &trans      &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE
+&trans  &trans  &trans  &trans  &trans          &trans              &trans      &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &kp LANGUAGE_2  &kp LANGUAGE_1      &kp DELETE  &trans                                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

@@ -118,7 +118,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mo 5   &trans  &mkp MB2
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &to 0   &trans      &trans  &mo 7                             &trans
+&trans  &trans  &trans  &trans  &to 6   &trans      &trans  &mo 7                             &trans
             >;
         };
 

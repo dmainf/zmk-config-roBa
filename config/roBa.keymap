@@ -53,8 +53,6 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V      &kp B        &lt 1 ESCAPE             &kp ESCAPE     &kp N         &kp M  &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &lt 4 SPACE  &lt 5 TAB                &kp BACKSPACE  &lt 6 RETURN                                 &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp BACKSPACE BACKSPACE>;
         };
 
         FUNCTION {

@@ -84,16 +84,16 @@
 
         SYMBOL1 {
             bindings = <
-&kp LC(LS(V))  &kp LC(W)     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                          &trans          &trans  &kp MINUS      &kp EQUAL         &kp GRAVE
-&kp LC(H)      &kp LC(L)     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans      &trans          &trans  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BACKSLASH
-&trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans      &trans          &trans  &trans         &trans            &trans
-&trans         &trans        &trans        &trans        &trans        &trans      &kp DELETE  &kp LANGUAGE_1                                           &trans
+&kp LC(LS(W))  &kp LC(LS(V))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                          &trans          &trans  &kp MINUS      &kp EQUAL         &kp GRAVE
+&kp LC(H)      &kp LC(L)      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans      &trans          &trans  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BACKSLASH
+&trans         &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans      &trans          &trans  &trans         &trans            &trans
+&trans         &trans         &trans        &trans        &trans        &trans      &kp DELETE  &kp LANGUAGE_1                                           &trans
             >;
         };
 
         SYMBOL2 {
             bindings = <
-&kp LG(T)                 &kp LG(W)                  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS                          &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+&kp LG(W)                 &kp LG(T)                  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS                          &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
 &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans      &trans      &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
 &trans                    &trans                     &kp EXCLAMATION  &kp AT_SIGN   &kp POUND             &trans      &trans      &trans  &trans  &trans                &trans                 &trans
 &trans                    &trans                     &trans           &trans        &trans                &trans      &kp DELETE  &trans                                                       &trans

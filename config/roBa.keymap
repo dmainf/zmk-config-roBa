@@ -75,10 +75,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans         &trans     &trans  &kp LG(LC(O))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(LG(H))  &mkp MB1   &trans  &kp LC(LG(D))  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LG(C)      &kp LG(V)  &trans  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RETURN                                       &trans
+&trans  &trans  &trans  &trans  &trans                         &trans         &trans     &trans  &kp LG(LC(O))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp LC(LG(H))  &mkp MB1   &trans  &kp LC(LG(D))  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp RETURN                                       &trans
             >;
         };
 
@@ -86,8 +86,8 @@
             bindings = <
 &kp LS(LC(V))  &kp LC(W)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                          &trans          &trans  &kp MINUS      &kp EQUAL         &kp GRAVE
 &kp LG(A)      &kp LG(S)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans      &trans      &trans          &trans  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BACKSLASH
-&trans         &kp LG(X)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans      &trans          &trans  &trans         &trans            &trans
-&trans         &trans     &kp N0        &trans        &trans        &trans      &kp DELETE  &kp LANGUAGE_1                                           &trans
+&trans         &kp LG(Z)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans      &trans          &trans  &trans         &trans            &trans
+&trans         &kp N0     &kp N0        &trans        &trans        &trans      &kp DELETE  &kp LANGUAGE_1                                           &trans
             >;
         };
 

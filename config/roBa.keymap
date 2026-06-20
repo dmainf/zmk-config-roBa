@@ -75,10 +75,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &trans         &trans     &trans  &kp LG(LC(O))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp LC(LG(H))  &mkp MB1   &trans  &kp LC(LG(D))  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp RETURN                                       &trans
+&trans  &trans  &trans  &trans  &trans                         &trans      &trans     &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans      &mkp MB1   &trans  &kp LC(LG(D))  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(X)  &kp LG(C)   &kp LG(V)  &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp RETURN                                    &trans
             >;
         };
 
@@ -102,10 +102,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                              &trans  &trans      &kp UP    &kp C_VOLUME_DOWN  &kp C_VOL_UP
-&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &kp LEFT    &kp DOWN  &kp RIGHT          &kp K_MUTE
-&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &kp C_PREV  &kp C_PP  &kp C_NEXT         &trans
-&trans  &trans  &trans  &trans  &kp LANGUAGE_2  &trans      &trans  &trans                                           &trans
+&trans  &trans  &trans  &trans  &trans                              &trans         &kp LG(LC(U))  &kp UP    &kp C_VOLUME_DOWN  &kp C_VOL_UP
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &kp LG(LC(H))  &kp LEFT       &kp DOWN  &kp RIGHT          &kp K_MUTE
+&trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans         &kp C_PREV     &kp C_PP  &kp C_NEXT         &trans
+&trans  &trans  &trans  &trans  &kp LANGUAGE_2  &trans      &trans  &trans                                                     &trans
             >;
         };
     };

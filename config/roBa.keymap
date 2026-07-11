@@ -77,7 +77,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                         &trans      &trans     &trans  &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans      &mkp MB1   &trans  &kp LC(LG(D))  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(X)  &kp LG(C)   &kp LG(V)  &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(Z)  &kp LG(C)   &kp LG(V)  &trans  &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp RETURN                                    &trans
             >;
         };
